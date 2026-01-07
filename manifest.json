@@ -13,7 +13,7 @@
   ],
   "web_accessible_resources": [
     {
-      "resources": ["duck1.mp3", "duck2.mp3", "duck3.mp3"],
+      "resources": ["sounds/quack.mp3", "sounds/quackk.mp3"],
       "matches": ["<all_urls>"]
     }
   ]
