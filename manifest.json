@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Duck Click Quacker",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Random duck sounds when you click anywhere on a webpage (random intervals).",
   "permissions": ["storage"],
   "action": {
@@ -30,7 +30,11 @@
   ],
   "web_accessible_resources": [
     {
-      "resources": ["sounds/quack.mp3", "sounds/quackk.mp3"],
+      "resources": [
+        "sounds/quack.mp3",
+        "sounds/quackk.mp3",
+        "icons/icon128.png"
+      ],
       "matches": ["<all_urls>"]
     }
   ]
